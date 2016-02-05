@@ -1,5 +1,9 @@
 package com.cn.common.core.model;
-
+/**
+ * 结果码
+ * @author -琴兽-
+ *
+ */
 public interface ResultCode {
 	
 	/**

@@ -1,8 +1,12 @@
 package com.cn.common.core.model;
 
 import com.cn.common.core.serial.Serializer;
-
-
+/**
+ * 结果对象
+ * @author -琴兽-
+ *
+ * @param <T>
+ */
 public class Result<T extends Serializer>{
 
 	/**
