@@ -26,6 +26,11 @@ public class SessionImpl implements Session {
 	public void setAttachment(Object attachment) {
 		channel.setAttachment(attachment);
 	}
+	
+	@Override
+	public void removeAttachment() {
+		channel.setAttachment(null);
+	}
 
 	@Override
 	public void write(Object message) {
@@ -41,5 +46,7 @@ public class SessionImpl implements Session {
 	public void close() {
 		channel.close();
 	}
+
+
 
 }
